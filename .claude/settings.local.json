@@ -17,7 +17,9 @@
       "Bash(docker push:*)",
       "Bash(docker tag:*)",
       "Bash(docker login:*)",
-      "Bash(docker pull:*)"
+      "Bash(docker pull:*)",
+      "Bash(./gradlew.bat:*)",
+      "Bash(java -version:*)"
     ]
   }
 }
