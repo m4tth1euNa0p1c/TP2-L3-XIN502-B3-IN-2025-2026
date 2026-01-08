@@ -1,0 +1,21 @@
+services:
+  rentalservice:
+    build:
+      context: ./RentalService
+    ports:
+      - "8080:8080"
+    networks:
+      - tp-net
+    depends_on:
+      - customerphp
+
+  customerphp:
+    image: matthkernel/customer-service:tp2
+    networks:
+      - tp-net
+    ports:
+      - "8081:80"
+
+networks:
+  tp-net:
+    driver: bridge
