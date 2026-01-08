@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git config:*)",
+      "Bash(dir /b \"C:\\\\Users\\\\matth\\\\EFREI_WORKSPACE\\\\conteneurisation\")",
+      "Bash(docker build:*)",
+      "Bash(docker run:*)",
+      "Bash(curl:*)",
+      "Bash(docker stop:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}
